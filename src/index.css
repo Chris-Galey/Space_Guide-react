@@ -1,0 +1,73 @@
+:root {
+  --black: #000;
+  --white: #fdfbfb;
+  --font-primary: "Inter", sans-serif;
+  --font-display: "Montserrat", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  max-width: 1280rem;
+  margin: 0rem 5rem 5rem 5rem;
+
+  font-size: 1.7rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  color: var(--black);
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 3rem 0 1.38rem;
+  line-height: 1.3;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 4.209rem;
+}
+
+h2 {
+  font-size: 3.157rem;
+}
+
+h3 {
+  font-size: 2.369rem;
+}
+
+h4 {
+  font-size: 1.777rem;
+}
+
+h5 {
+  font-size: 1.333rem;
+}
+
+small,
+.text_small {
+  font-size: 0.75rem;
+}
+
+.wrapper {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

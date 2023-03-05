@@ -1,0 +1,24 @@
+.item {
+  display: flex;
+  flex-direction: row;
+  min-width: 90%;
+  gap: 2rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+.number {
+  font-size: 2.4rem;
+  font-weight: bold;
+  font-family: var(--font-display);
+  padding: 1rem;
+  align-self: center;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+}
+.servicer {
+  font-weight: 600;
+}
+.name {
+}
