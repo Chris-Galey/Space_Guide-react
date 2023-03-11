@@ -16,7 +16,7 @@ function Nav(props) {
     window.addEventListener("scroll", handleScroll);
 
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [scrollY]);
+  }, [scrolling, scrollY]);
 
   return (
     <nav

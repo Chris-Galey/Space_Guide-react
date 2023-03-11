@@ -1,7 +1,7 @@
 import React from "react";
 
 import classes from "./Button.module.css";
-import Card from "./Card";
+
 const Button = (props) => {
   return (
     <button
