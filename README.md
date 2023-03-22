@@ -10,6 +10,7 @@
 
 -React, CSS, V2 Launch API.
 
-## Full Page
+## Resources
 
+[Link](https://chic-belekoy-cddf55.netlify.app/)
 ![Screenshot](SG-React.png)
